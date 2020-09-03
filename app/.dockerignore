@@ -1,0 +1,10 @@
+# Build artifacts
+node_modules
+node-sass
+_cacache
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
