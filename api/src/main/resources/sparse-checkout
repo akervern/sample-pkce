@@ -1,0 +1,20 @@
+# Use whitelist pattern; exclude eveything by default
+!/*
+
+# Application Definition
+application.xml
+
+# Studio Metadata xml and registries
+studio/.metadata/**/*.xml
+studio/.metadata/registries
+
+# Studio web resources
+studio/resources/nuxeo.war/**/*.js
+studio/resources/nuxeo.war/**/*-min.js
+
+studio/resources/nuxeo.war/**/*.html
+studio/resources/nuxeo.war/**/*.xhtml
+
+# Exclude risky known folders...
+!studio/resources/nuxeo.war/**/bower_components/**
+!studio/resources/nuxeo.war/**/node_modules/**
